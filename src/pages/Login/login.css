@@ -4,14 +4,30 @@
   justify-content: center;
   height: 100vh;
   width: 100%;
+  background-color: #121214;
+  color: white;
 }
 .login-logo img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+.login-right{
+  background-color: #29292E;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
 }
 .login-right h1 {
   font-family: 'lexend', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 .login-right h4 {
   font-family: 'lexend', sans-serif;
@@ -20,6 +36,7 @@
   font-size: 15px;
   font-weight: 500px;
   color: #e1e1e6;
+  padding-top: 20px;
 }
 .loginInputEmail {
   display: flex;
@@ -28,7 +45,7 @@
   background-color: #1A1A1D;
   border-radius: 3px;
   padding: 3px;
-  width: 89%;
+  width: 100%;
   height: 50px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -48,14 +65,15 @@
   font-size: 17px;
   margin-left: 10px;
   margin-right: 10px;
-}.loginInputPassword {
+}
+.loginInputPassword {
   display: flex;
   align-items: center;
   color: gray;
   background-color: #1A1A1D;
   border-radius: 3px;
   padding: 3px;
-  width: 89%;
+  width: 100%;
   height: 50px;
   border-radius: 5px;
 }
@@ -74,4 +92,26 @@
   font-size: 17px;
   margin-left: 10px;
   margin-right: 10px;
+}
+.login-right button {
+  background-color:#202024;
+  color:#EFF2F5;
+  font-weight: 700;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-right: 21px;
+  width: 50%;
+  border: none;
+  outline-width: none;
+  margin-left: 25%;
+}
+.login-right button:hover {
+  background-color: #171719;
+  color: #EFF2F5;
+  cursor: pointer;
+}
+.login-eye {
+  cursor: pointer;
 }
